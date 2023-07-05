@@ -32,7 +32,7 @@ function checkCredentials(enteredUsername, enteredPassword) {
 
 
   if (userFound) {
-    alert(userData); 
+    alert("Logged in as: " + userData.username);
   } else {
     alert('Please enter the correct details'); 
   }
